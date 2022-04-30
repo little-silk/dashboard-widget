@@ -13,7 +13,10 @@
 section {
   background: lightgray;
   padding: 1em;
-  
+  background: #FFF;
+  border-radius: 1rem;
+  background: linear-gradient(135deg, rgba(255,255,255,0.6), rgba(255,255,255,0.2));
+  backdrop-filter: blur(0.5rem);
   /* Relative Parent. Absolute Child */
   position: relative;
 }
