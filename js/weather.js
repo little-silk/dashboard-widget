@@ -31,3 +31,9 @@ fetch(url)
   weatherContainer.insertAdjacentHTML("afterbegin", template);
   
 });
+
+const cloudy = ("assets/clouds.jpeg");
+
+console.log(cloudy);
+
+const image = new array ()
