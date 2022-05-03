@@ -11,13 +11,8 @@
 
 body {
     /* Extend full height of browser  */
-    height: 100vh;
-}
-
-.background {
-  width: 100vw;
-  height: 100vh;
-  display: none;
+    height: 100%;
+    width: 100%;
 }
 
 /* Widgets */
@@ -32,54 +27,39 @@ section {
   position: relative;
 }
 
+h1 {
+  font-size: 3em;
+}
+
 /* Time */
 .time {
   grid-area: 1 / 2 / 2 / 3;
+  text-align: center;
 }
 
-.hours {
-}
-
-.minutes {
-}
-
-.seconds {
-}
-
-.amOrPM {
-  
+time {
+  font-size: 2em;
 }
 
 /* Date */
 .date {
   grid-area:  1 / 3 / 2 / 4;
-}
-
-.month {
-}
-
-.dayOfMonth {
-}
-
-.year {
-}
-
-.dayOfWeek {
+  text-align: center;
 }
 
 /* Weather */
 .weather {
   grid-area:  2 / 2 / 3 / 4;
+  text-align: center;
+  display: flex;
 }
 
 .city {
-  
+  display: block;
+  flex: none;
 }
 
 .temp {
-  
-}
-
-.weather img {
-  
+  display: block;
+  flex: none;
 }
