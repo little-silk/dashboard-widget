@@ -20,7 +20,7 @@ fetch(url)
   const weatherType = (data.weather[0].main);
   console.log(weatherType);
 
-  document.body.style.backgroundImage = `url('assets/${weatherType}.jpeg')`;
+  document.body.style.backgroundImage = `url('images/${weatherType}.jpeg')`;
 
   console.log(document.body.style.backgroundImage);
 
