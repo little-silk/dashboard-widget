@@ -12,17 +12,13 @@
 body {
     /* Extend full height of browser  */
     height: 100vh;
-
-    /* Load Background Images with JS. Style with CSS */
-    background-size: cover;
-    background-position: center;
 }
 
-/* .background {
+.background {
   width: 100vw;
   height: 100vh;
   display: none;
-} */
+}
 
 /* Widgets */
 section {
