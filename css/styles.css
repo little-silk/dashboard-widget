@@ -1,3 +1,5 @@
+@import url('zodiak.css');
+
 html {
   height: 100%;
 }
@@ -6,7 +8,7 @@ body {
   background-size: cover;
   margin: 0;
   background-repeat: no-repeat;
-  back
+  font-family: 'Zodiak-Regular';
 }
 
 /* Grid */
@@ -32,11 +34,14 @@ section {
   position: relative;
   box-shadow: 5px 5px 5px rgba(136, 136, 136, 0.34);
   border: solid 1px rgba(255, 255, 255, 0.34);
-  padding-bottom: 50px;
+  padding: 50px 0 50px 0;
 }
 
 h1 {
   font-size: 3em;
+font-family: 'Zodiak-Bold';
+margin: 0;
+padding-bottom: 30px;
 }
 
 /* Time */
@@ -68,4 +73,12 @@ time {
 
 .city, .temp {
   font-size: 2em;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  font-family: 'Zodiak-Light';
+  font-size: 1.5em;
+  padding-top: 15px;
 }

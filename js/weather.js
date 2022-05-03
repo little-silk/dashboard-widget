@@ -32,6 +32,7 @@ fetch(url)
     </div>
     <data value="${data.name}" class="city">${data.name}</data>
     <data value="${data.main.temp}" class="temp">${data.main.temp}&#8457;</data>
+    <data value="${data.weather[0].description}" class="description">${data.weather[0].description}</data>
   `;
   
   // Insert dynamic template to container
