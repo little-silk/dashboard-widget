@@ -25,7 +25,6 @@ body {
 /* Widgets */
 section {
   background: lightgray;
-  padding: 1em;
   background: #FFF;
   border-radius: 1rem;
   background: linear-gradient(135deg, rgba(255,255,255,0.6), rgba(255,255,255,0.2));
@@ -34,7 +33,10 @@ section {
   position: relative;
   box-shadow: 5px 5px 5px rgba(136, 136, 136, 0.34);
   border: solid 1px rgba(255, 255, 255, 0.34);
-  padding: 50px 0 50px 0;
+}
+
+.center {
+text-align: center;
 }
 
 h1 {
@@ -81,4 +83,5 @@ time {
   font-family: 'Zodiak-Light';
   font-size: 1.5em;
   padding-top: 15px;
+  padding-bottom: 50px;
 }
