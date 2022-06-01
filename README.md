@@ -18,7 +18,7 @@ The concept of a Dashboard appears nearly everywhere. Most obvious are car dashb
 * Favicon: https://icon-icons.com/icon/dashboard/182989
 * Glass effect: https://codepen.io/jonathansigg/pen/MWbaNdN
 * Font: https://www.fontshare.com/fonts/zodiak
-**Background images**
+### Background images
 * Rain: https://unsplash.com/photos/bI423DxLEYk
 * Clouds: https://unsplash.com/photos/M54cSayfQLI
 * Clear: https://unsplash.com/photos/O85h02qZ24w
@@ -33,3 +33,6 @@ The concept of a Dashboard appears nearly everywhere. Most obvious are car dashb
 * Ash: https://images.unsplash.com/photo-1475776408506-9a5371e7a068?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2258&q=80
 * Squall: https://images.unsplash.com/photo-1505672678657-cc7037095e60?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2500&q=80
 * Tornado: https://images.unsplash.com/photo-1615675546460-93f2f452dead?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80
+
+## Deployed Site
+* https://dashboard-widget.netlify.app/
